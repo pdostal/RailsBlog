@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem "libv8", ">= 3.11.8"
+gem "therubyracer", ">= 0.11.0", :group => :assets, :platform => :ruby, :require => "v8"
+
